@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The time taken to sort through the sorted file was far less than the time taken to go through the reversed file. Upper bound is n-squared and the lower bound is n.
+
+sort2 uses: Merge Sort
+
+How do you know?: The time taken to sort through both the sorted as well as the reversed files was pretty much the same. Upper bound is equal to the lower bound, i.e., nlogn for both.
+
+sort3 uses: Selection Sort
+
+How do you know?: Sorting both the reversed and the sorted files took quite a while, much longer than the sort2 which is merge sort, and took pretty much the same time, meaning the lower and upper bounds were the same. That is, both were n-squared.
